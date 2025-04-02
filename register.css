@@ -1,0 +1,129 @@
+html{background-color: #e3edf7;
+  scroll-behavior: smooth;
+} 
+.parent,.nav{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 20px 0px;
+  z-index: 111;
+}
+.logo{height: 80px;
+  border-radius: 50%;
+
+}
+.parent{
+  backdrop-filter: blur(40px);
+  padding: 0px 20px 0px;
+  border-radius: 15px;
+  background: whitesmoke,red,blue,yellow,gray;
+}
+
+.middle-ct{    font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.hidden{
+  display: none;
+  width: auto;
+}
+.show:hover ul{
+  display: block;
+  width: fit-content;
+  position: absolute;
+  top: 70px;
+  left: 305px;
+  text-decoration: none;
+  list-style: none;
+  padding: 0px 12px 0px;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  background: linear-gradient(grey,white);
+  
+}
+.nav:hover{
+  background-color: gray;
+  border-radius: 10px;
+  transition: 0s;
+}
+li .nav{
+  text-align: center;
+  padding: 12px;
+}
+
+
+.middle-ct{font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.container{
+  padding: 30px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  border-radius: 4px;
+  backdrop-filter: blur(5px);
+  background: linear-gradient(white);
+  border: 2px solid black;
+  color: black;
+  box-shadow: 5px 5px 5px 2px ;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+form label{
+  display: block;
+  font-weight: bold;
+    margin-bottom: 5px;
+}
+form input{
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  padding: 10px;
+}
+input:hover{
+  border: 1px solid black;
+}
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #218838;
+}
+form p{
+  text-align: center;
+}
+form a{
+  color: #007bff;
+  text-decoration: none;
+}
+form a:hover {
+  text-decoration: underline;
+}
